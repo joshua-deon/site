@@ -6,7 +6,7 @@ const Content = (props) => {
   return (
     <div className="content">
       <Sticky />
-      {props.children}
+      <div className="content__children">{props.children}</div>
     </div>
   );
 };

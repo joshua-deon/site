@@ -8,7 +8,7 @@ import Footer from "../components/footer";
 // markup
 const IndexPage = () => {
   return (
-    <main>
+    <main className="container">
       <Logo />
       <Nav />
       <Content>

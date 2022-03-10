@@ -1,0 +1,9 @@
+.content {
+  background-color: #1b1823;
+  border: solid 1px #313434;
+  padding: 80px 0;
+  display: flex;
+  &__children {
+    padding: 0 80px;
+  }
+}

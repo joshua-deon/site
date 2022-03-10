@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  &__link {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    text-decoration: none;
+    margin: 0 4px;
+    &--active,
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      border-bottom: solid 3px #7469bb;
+    }
+  }
+  &__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+}
