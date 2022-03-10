@@ -1,10 +1,33 @@
 import React from "react";
-import "./styles.scss"
+import "./styles.scss";
 
 const Sticky = () => {
-    return (
-        <h1>Sticky</h1>
-    )
-}
+  return (
+    <div className="sticky">
+      <div className="sticky__image">
+        <img src="" />
+      </div>
+      <div className="sticky__header">
+        <div>Joshua Johnson</div>
+        <div>New York, NY</div>
+      </div>
+      <div className="sticky__skills">
+        <ul>
+          <li className="sticky__skill">HTML</li>
+          <li className="sticky__skill">CSS</li>
+          <li className="sticky__skill">JavaScript</li>
+          <li className="sticky__skill">React.js</li>
+          <li className="sticky__skill">TypeScript</li>
+          <li className="sticky__skill">Angular</li>
+        </ul>
+      </div>
+      <div className="sticky__resume">
+        <a href="#" className="button">
+          View Resume
+        </a>
+      </div>
+    </div>
+  );
+};
 
-export default Sticky
+export default Sticky;

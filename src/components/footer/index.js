@@ -1,10 +1,8 @@
 import React from "react";
-import "./styles.scss"
+import "./styles.scss";
 
 const Footer = () => {
-    return (
-        <h1>Footer</h1>
-    )
-}
+  return <footer className="footer">© Copyright 2022 Joshua Johnson.</footer>;
+};
 
-export default Footer
+export default Footer;

@@ -1,0 +1,21 @@
+.logo {
+  text-align: center;
+  line-height: 1;
+
+  &__name {
+    font-size: 48px;
+    color: #767485;
+    margin-bottom: 16px;
+
+    &--bold {
+      font-weight: 700;
+      color: #ffffff;
+    }
+  }
+
+  &__title {
+    color: #a39ae1;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
