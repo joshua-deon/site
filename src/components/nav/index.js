@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import "./styles.scss";
 
@@ -6,19 +7,31 @@ const Nav = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <a href="#" className="nav__link nav__link--active">
+          <Link
+            to="/"
+            className="nav__link"
+            activeClassName="nav__link--active"
+          >
             About Me
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <Link
+            to="/work"
+            className="nav__link"
+            activeClassName="nav__link--active"
+          >
             My Work
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a href="#" className="nav__link">
+          <Link
+            to="/contact"
+            className="nav__link"
+            activeClassName="nav__link--active"
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

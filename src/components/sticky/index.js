@@ -1,6 +1,9 @@
 import React from "react";
 import "./styles.scss";
 import image from "../../images/josh-photo.jpg";
+import resume from "../../images/resume.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Sticky = () => {
   return (
@@ -10,7 +13,13 @@ const Sticky = () => {
       </div>
       <div className="sticky__header">
         <div className="sticky__name">Joshua Johnson</div>
-        <div className="sticky__location">New York, NY</div>
+        <div className="sticky__location">
+          <FontAwesomeIcon
+            icon={faLocationDot}
+            className="sticky__location-icon"
+          />
+          New York, NY
+        </div>
       </div>
 
       <ul className="sticky__skills">
@@ -23,7 +32,7 @@ const Sticky = () => {
       </ul>
 
       <div className="sticky__resume">
-        <a href="#" className="button">
+        <a href={resume} className="button">
           View Resume
         </a>
       </div>
