@@ -4,6 +4,7 @@ import Logo from "../components/logo";
 import Nav from "../components/nav";
 import Content from "../components/content";
 import Footer from "../components/footer";
+import ContactForm from "../components/contactForm";
 
 // markup
 const ContactPage = () => {
@@ -11,7 +12,9 @@ const ContactPage = () => {
     <main className="container">
       <Logo />
       <Nav />
-      <Content>if u wanna make me less unemployed hmu @</Content>
+      <Content>
+        <ContactForm />
+      </Content>
       <Footer />
     </main>
   );
